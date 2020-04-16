@@ -1,0 +1,32 @@
+body{
+    background-attachment: fixed;
+    background-color: white;
+    background-image: url(tkwedding.JPG);
+    background-repeat: repeat;
+    background-size: cover;
+    /*for an image background you need all 5 of the above lines*/
+}
+
+h1{
+    color: orange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+p{
+    border-style: groove;
+    border-width: 8px;
+    background-color: white;
+    height: 20px;
+    width: 900px;
+    margin: 0 100px 50px 0;
+    /*build a margin around the paragraph, basically can be used as a space*/
+    padding: 10px 10px 10px 10px;
+    /*padding adds room around the box, basically expands the margins of the box itself*/
+}
+
+img.hubby{
+    border-color: purple;
+    border-style: dotted;
+    border-width: 10px;
+}
